@@ -58,12 +58,19 @@ ul a {
 
 .middletext_container {
     flex: 1;
+    padding: 100px 0px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bottomtext_container {
     flex: 1;
     background-color: #E5E7EB;
-    padding: 180px 500px;
+    padding: 180px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero {
@@ -81,7 +88,9 @@ ul a {
 }
 
 .toptext_right {
-    flex: 1;
+    width: 500px;
+    height: 350px;
+    flex-shrink: 0;
 }
 
 button {
@@ -90,11 +99,6 @@ button {
     border-radius: 10px;
     padding: 10px 40px;
     border-style: none;
-}
-
-.middletext_container {
-    padding: 100px 500px 180px;
-    
 }
 
 .middletext_container img {
@@ -119,6 +123,7 @@ button {
 
 .imageandtext {
     width: 200px;
+    margin: 0px 10px;
 }
 
 .imageandtext p {
@@ -132,6 +137,7 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    min-width: 400px;
 }
 
 .author {
